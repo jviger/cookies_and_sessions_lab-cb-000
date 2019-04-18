@@ -1,6 +1,6 @@
 
 <%= form_tag({controller: "products", action: "add"}, method: "post") do %>
-  <%= label_tag(:q, "Product:") %>
-  <%= text_field_tag(:q) %>
-  <%= submit_tag("Add") %>
+  <%= label_tag(:product, "product:") %>
+  <%= text_field_tag(:product) %>
+  <%= submit_tag("Submit") %>
 <% end %>
